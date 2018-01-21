@@ -1,0 +1,43 @@
+.photo img {
+  width: 250px;
+}
+
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  background-image: url("../img/background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}
+
+.contact {
+  margin: 10px;
+}
+
+.contact a {
+  color: #4ddbff;
+}
+
+.contact a:hover {
+  color: white;
+}
+
+.transparent {
+  background-color: white;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.projects a {
+  color: #0099cc;
+}
+
+.projects a:hover {
+  color: #002633;
+}
+
+#projects-title {
+ padding: 15px;
+}
